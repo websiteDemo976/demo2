@@ -353,7 +353,9 @@ input::placeholder {
   border-radius: 8px;
   font-family: "FbSpoiler-Bold";
 }
-
+.selection{
+  pointer-events: none !important;
+}
 .select2-container--default .select2-selection--single {
   background-color: transparent !important;
   border: none !important;
